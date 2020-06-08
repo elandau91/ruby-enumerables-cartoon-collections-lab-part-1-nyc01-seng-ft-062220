@@ -15,6 +15,7 @@ def list_dwarves(array)
   
   
   array.each_with_index do |index, dwarf|
+  index +=1
   print "#{index}. #{dwarf}"
   end
 end
